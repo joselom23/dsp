@@ -90,12 +90,13 @@ Code for emoji's:
 :fireworks:
 :smiley:
 :watermelon:
+:clap:
 ```
 Rendered emoji's:  
 :fireworks:  
 :smiley:  
 :watermelon:  
- 
+:clap:
 ---
 
 ## <a name="section-f"></a>6) Links 
