@@ -52,8 +52,8 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 Did you install Python 2 or 3? Why?  
 
 >> I installed **Python 3** for two reasons:  
-<p>1- All the HacherRank pre-work is base on Python 3.</p>  
-<p>2- It's the lattest version, thus I want to be familiar with the newest syntax.</p>
+	1- All the HacherRank pre-work is base on Python 3.  
+	2- It's the lattest version, thus I want to be familiar with the newest syntax.
 
 ### Q2. Which Python Version Installed   
 
