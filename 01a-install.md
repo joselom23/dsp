@@ -51,7 +51,9 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I installed **Python 3** for two reasons:
+	1-All the HacherRank pre-work is base on Python 3.
+	2-It's the lattest version, thus I want to be familiar with the newest sintax.
 
 ### Q2. Which Python Version Installed   
 
@@ -59,7 +61,7 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python 3.6.4 :: Anaconda custom (64-bit)
 
  
 
