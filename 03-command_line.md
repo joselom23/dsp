@@ -73,5 +73,6 @@ What does `xargs` do? Give an example of how to use it.
 > > ```Xargs``` Is a command that we can use to apply a command to a series of thing (can be filenames, directories, words within a a file, files within a directory, etc). Similar to a for loop.  
 > > For example:  
 > > - ```ls -p| xargs -n 1 echo "Hello"``` : prints a list of the files and directories in my current directory, adding a “Hello” at the beginning.  
+> >
 > > We can do other kind of operations, such as remove a list of a subset of files that contain “test” in their names and other operations. 
 
