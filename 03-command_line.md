@@ -20,7 +20,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ---
+
+- show current working directory path: ```pwd```  
+- creating a directory: ```mkdir <directory name> ``` 
+- deleting a directory: ```rmdir <directory name>```  
+- creating a file using touch command: ```touch <filename>```        
+- deleting a file: ```rm <filename>```  
+- renaming a file: ```mv <original file name> <new file name>```  
+- listing hidden files: ```ls -a```  
+- copying a file from one directory to another: ```cp <source file (can include the path to that file. For example /home/user/Desktop/from.txt> <destination directory>```  
+- changing directory: ```cd <destination directory>```  
+- returns a list of environment variables: ```env```
 
 ---
 
