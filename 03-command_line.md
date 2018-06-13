@@ -47,10 +47,10 @@ What do the following commands do:
 > > - ```Ls``` : lists all files and directories in the working directory.  
 > > - ```ls -a```: lists all contents of a directory, including hidden files and directories  
 > > - ```ls -l```: lists all contents in long format  
-> > - ```ls -lh```:  list long format with readable file size  
-> > - ```ls -lah```: list long format with readable file size, including hidden files and directories.  
+> > - ```ls -lh```:  lists long format with readable file size  
+> > - ```ls -lah```: lists long format with readable file size, including hidden files and directories.  
 > > - ```ls -t```: orders files and directories by the time they were last modified.  
-> > - ```ls -Glp```:  lists all contents in long format with two options. Displaying directories with “/” at the end and excluding the name of the group that owns the file.
+> > - ```ls -Glp```:  lists all contents in long format with two options. Displaying directories with “/” at the end, and excluding the name of the group that owns the file.
 
 ---
 
