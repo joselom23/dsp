@@ -29,7 +29,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > - listing hidden files: ```ls -a```  
 > > - copying a file from one directory to another: ```cp <source file (can include the path to that file. For example /home/user/Desktop/from.txt> <destination directory>```  
 > > - changing directory: ```cd <destination directory>```  
-> > - returns a list of environment variables: ```env```
+> > - returns a list of environment variables: ```env```  
 
 ---
 
@@ -50,7 +50,7 @@ What do the following commands do:
 > > - ```ls -lh```:  lists long format with readable file size  
 > > - ```ls -lah```: lists long format with readable file size, including hidden files and directories.  
 > > - ```ls -t```: orders files and directories by the time they were last modified.  
-> > - ```ls -Glp```:  lists all contents in long format with two options. Displaying directories with “/” at the end, and excluding the name of the group that owns the file.
+> > - ```ls -Glp```:  lists all contents in long format with two options. Displaying directories with “/” at the end, and excluding the name of the group that owns the file.  
 
 ---
 
@@ -58,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > - ```Ls -mp```: displays the names as a comma-separated list adding “/” at the end for directories.  
+> > - ```Ls -o```: similar to ls -Gl, lists long format excluding group name.  
+> > - ```Ls -rp```: lists files and directories in reverse order, adding “/” at the end for directories.  
+> > - ```Ls -1p```: lists each entry on a line, adding “/” at the end for directories.  
+> > - ```Ls -R```: lists files and directories, including sub-directories as well.  
 
 ---
 
