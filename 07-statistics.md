@@ -108,13 +108,19 @@ The probability that Elvis was a identical twin is **P(E<sub>1</sub>/B) = 5/11.*
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> Starting by the Bayes formula, we can see that both share the concept of conditional probabilities of events. But they use different approaches.
+#### Answer
 
->> $$ \frac{P(H)P(D/H)}{P(D)} $$
+Starting by the Bayes formula, we can see that both share the concept of conditional probabilities of events. 
 
->> While the frequentist approach uses the conditional probabilities of events A and B for example. The bayesian interprets it by the probability of a single hypothesis in a context where several possible hypotheses, and does it by using P(H) a prior know or assumed probability, a likelyhood P(D/H) which Is the evidence provided by the data, and P(D) the probability of all possible hypotheses.
+**Frequentist:** $$ P(A/B) = \frac{P(A)P(B/A)}{P(B)} $$
+**Bayesian:** $$ P(H/D) = \frac{P(H)P(D/H)}{P(D)} $$
 
->> In the same way, we can say that while Bayesian approaches the uncertainty by using a probability distribution over hypotheses, frequentist statistics uses conditional distributions of given specific hypotheses.
+They differ in that they use different approaches to this conditional probability. While the frequentist approach uses the conditional probabilities of events A and B for example. The bayesian interprets it by the probability of a single hypothesis in a context where several hypotheses are possible, and does it by using P(H) a prior know or assumed probability, a likelyhood P(D/H) which is the evidence provided by the data, and P(D) the probability of all possible hypotheses.
+
+In the same way, we can say that while Bayesian approaches the uncertainty by using a probability distribution over hypotheses, frequentist statistics uses conditional distributions of given specific hypotheses and this has two consequences:
+
+* The Bayesian approach is computationally more expensive, given that it has more parameters to take into account. 
+* Frequentist provides a `p-value` to define `TYPE-I and TYPE-II` vs. the Null hypothesis while Bayesian does not.
 
 ---
 
