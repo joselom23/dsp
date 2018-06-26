@@ -13,7 +13,7 @@ Plot the **actual** and **biased** distributions, and compute their **means**.
 
 #### Answer:
 
-Importing libraries
+Importing libraries:
 ```
 import numpy as np
 import matplotlib
@@ -22,23 +22,24 @@ import thinkstats2
 import thinkplot
 ```
 
-Importing data
+Importing data:
 ```
 resp = nsfg.ReadFemResp()
 ```
 
-Calculating the Actual PMF
+Calculating the Actual PMF:
 ```
 pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
 ```
 
-Plotting the actual PMF
+Plotting the actual PMF:
 ```
 thinkplot.Pmfs([pmf])
 thinkplot.Config(xlabel='Number of children under 18', ylabel='PMF')
 ```
+![](https://github.com/joselom23/dsp/blob/master/statistics/ActualPmf31.png)
 
-Creating the function BiasPmf
+Creating the function BiasPmf:
 ```
 def BiasPmf(pmf, label):
     new_pmf = pmf.Copy(label=label)
@@ -50,12 +51,12 @@ def BiasPmf(pmf, label):
     return new_pmf
 ```
 
-Calculating the biased PMF
+Calculating the biased PMF:
 ```
 biased_pmf = BiasPmf(pmf, label='observed')
 ```
 
-Plotting two Pmfs
+Plotting two Pmfs:
 ```
 biased_pmf = BiasPmf(pmf, label='observed')
 thinkplot.PrePlot(2)
@@ -63,12 +64,12 @@ thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='Class size', ylabel='PMF')
 ```
 
-Actual distribution Mean
+Actual distribution Mean:
 ```
 pmf.Mean()
 ```
 
-Observed distribution Mean
+Observed distribution Mean:
 ```
 biased_pmf.Mean()
 ```
