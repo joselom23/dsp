@@ -95,11 +95,13 @@ To start working in this problem we will first define the conventions:
 * **P(B/I) = P(B/E<sub>1</sub>)**: Probability of two male identical twins. **`MM FF : 1/2`**
 * **P(B/F) = P(B/E<sub>2</sub>)**: Probability of two male fraternal twins. **`MM MF FM FF : 1/4`**
 
-| Event     | P(E)  | P(B/E)     | P(E)P(B/E)        | P(E/B) |
-|-----------|-------|------------|-------------------|--------|
-| Identical | 1/300 | 1/2        | 1/600             | 5/11   |
-| Fraternal | 1/125 | (1/2)(1/2) | 1/500             | 6/11   |
-|           |       |            | 1100/((500)(600)) |        |
+| Event     | P(E)  | P(B/E)     | P(E)P(B/E)                   | P(E/B) |
+|-----------|-------|------------|------------------------------|--------|
+| Identical | 1/300 | 1/2        | 1/600                        | 5/11   |
+| Fraternal | 1/125 | (1/2)(1/2) | 1/500                        | 6/11   |
+
+
+$$P(E~i/B) = \frac{P(E~i)P(B/E~i)}{P(B)} = \frac{P(E~i)P(B/E~i)(500)(600)}{(1000)}  $$
 
 The probability that Elvis was a identical twin is **P(E<sub>1</sub>/B) = 5/11.**
 
@@ -112,8 +114,10 @@ How do frequentist and Bayesian statistics compare?
 
 Starting by the Bayes formula, we can see that both share the concept of conditional probabilities of events. 
 
-**Frequentist:** $$ P(A/B) = \frac{P(A)P(B/A)}{P(B)} $$
-**Bayesian:** $$ P(H/D) = \frac{P(H)P(D/H)}{P(D)} $$
+**Frequentist:** 
+$$ P(A/B) = \frac{P(A)P(B/A)}{P(B)} $$
+**Bayesian:** 
+$$ P(H/D) = \frac{P(H)P(D/H)}{P(D)} $$
 
 They differ in that they use different approaches to this conditional probability. While the frequentist approach uses the conditional probabilities of events A and B for example. The bayesian interprets it by the probability of a single hypothesis in a context where several hypotheses are possible, and does it by using P(H) a prior know or assumed probability, a likelyhood P(D/H) which is the evidence provided by the data, and P(D) the probability of all possible hypotheses.
 
