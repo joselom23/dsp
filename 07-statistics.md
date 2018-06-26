@@ -101,7 +101,7 @@ To start working in this problem we will first define the conventions:
 | Fraternal | 1/125 | (1/2)(1/2) | 1/500             | 6/11   |
 |           |       |            | 1100/((500)(600)) |        |
 
-The probability that Elvias was a identical twin is **P(E<sub>1</sub>B) = 5/11.**
+The probability that Elvias was a identical twin is **P(E<sub>1</sub>/B) = 5/11.**
 
 ---
 
