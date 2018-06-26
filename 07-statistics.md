@@ -116,7 +116,8 @@ Starting by the Bayes formula, we can see that both share the concept of conditi
 
 **Frequentist:** 
 ![](https://github.com/joselom23/dsp/blob/master/statistics/P(A%7CB).gif)
-**Bayesian:** 
+
+**Bayesian:**  
 ![](https://github.com/joselom23/dsp/blob/master/statistics/P(H%7CD).gif)
 
 They differ in that they use different approaches to this conditional probability. While the frequentist approach uses the conditional probabilities of events A and B for example. The bayesian interprets it by the probability of a single hypothesis in a context where several hypotheses are possible, and does it by using P(H) a prior know or assumed probability, a likelyhood P(D/H) which is the evidence provided by the data, and P(D) the probability of all possible hypotheses.
