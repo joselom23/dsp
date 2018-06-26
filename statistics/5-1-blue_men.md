@@ -9,13 +9,13 @@ In order to join Blue Man Group, you have to be male between `5’10”` and `6�
 
 #### Answer: 
 
-Importing libraries
+Importing libraries:
 ```
 import numpy as np
 import scipy
 ```
 
-Mean and STD from the BRFSS data
+Mean and STD from the BRFSS data:
 ```
 mean = 178
 std  = 7.7
@@ -26,15 +26,15 @@ minval = 177.8 #5'10"
 maxval = 185.42 #6'1"
 ```
 
-Defining EvalNormalCdf to understand the Cdf of each value given the parameters
+Defining EvalNormalCdf to understand the Cdf of each value given the parameters:
 ```
 def EvalNormalCdf(x, mu, sigma):
     return scipy.stats.norm.cdf(x, loc=mu, scale=sigma)
 ```
 
-In order to calculate the probability of the range, we are going to calculate the difference of CDFs
+In order to calculate the probability of the range, we are going to calculate the difference of CDFs:
 ```
-pbetween = EvalNormalCdf(maxval,mean,std) -  EvalNormalCdf(minval,mean,std)
+pbetween = EvalNormalCdf(maxval,mean,std) - EvalNormalCdf(minval,mean,std)
 pb = round(pbetween*100,2)
 print(f'The percentage of people that are between 5\'10\" and 6\'1\" is: {pb}%')
 ```
