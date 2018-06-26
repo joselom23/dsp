@@ -37,7 +37,7 @@ Plotting the actual PMF:
 thinkplot.Pmfs([pmf])
 thinkplot.Config(xlabel='Number of children under 18', ylabel='PMF')
 ```
-![](https://github.com/joselom23/dsp/blob/master/statistics/ActualPmf31.png)
+![Actual PMF](https://github.com/joselom23/dsp/blob/master/statistics/ActualPmf31.png)
 
 Creating the function BiasPmf:
 ```
@@ -63,6 +63,8 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='Class size', ylabel='PMF')
 ```
+
+![Actual vs Observed PMFs](https://github.com/joselom23/dsp/blob/master/statistics/Biasedpmf31.png)
 
 Actual distribution Mean:
 ```
