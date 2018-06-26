@@ -108,7 +108,13 @@ The probability that Elvis was a identical twin is **P(E<sub>1</sub>/B) = 5/11.*
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Starting by the Bayes formula, we can see that both share the concept of conditional probabilities of events. But they use different approaches.
+
+>> \frac{P(H)P(D/H)}{P(D)}
+
+>> While the frequentist approach uses the conditional probabilities of events A and B for example. The bayesian interprets it by the probability of a single hypothesis in a context where several possible hypotheses, and does it by using P(H) a prior know or assumed probability, a likelyhood P(D/H) which Is the evidence provided by the data, and P(D) the probability of all possible hypotheses.
+
+>> In the same way, we can say that while Bayesian approaches the uncertainty by using a probability distribution over hypotheses, frequentist statistics uses conditional distributions of given specific hypotheses.
 
 ---
 
