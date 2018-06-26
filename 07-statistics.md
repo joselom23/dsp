@@ -101,7 +101,8 @@ To start working in this problem we will first define the conventions:
 | Fraternal | 1/125 | (1/2)(1/2) | 1/500                        | 6/11   |
 
 
-$$ P(Ei/B) = \frac{P(Ei)P(B/Ei)}{P(B)} = \frac{P(Ei)P(B/Ei)(500)(600)}{(1000)} $$
+$$ P(Ei/B) = \frac{P(Ei)P(B/Ei)}{P(B)} $$
+$$ P(Ei/B) = \frac{P(Ei)P(B/Ei)(500)(600)}{(1000)} $$
 
 The probability that Elvis was a identical twin is **P(E<sub>1</sub>/B) = 5/11.**
 
