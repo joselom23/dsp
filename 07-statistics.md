@@ -114,7 +114,7 @@ How do frequentist and Bayesian statistics compare?
 
 Starting by the Bayes formula, we can see that both share the concept of conditional probabilities of events. 
 
-**Frequentist:** 
+**Frequentist:**  
 ![](https://github.com/joselom23/dsp/blob/master/statistics/P(A%7CB).gif)
 
 **Bayesian:**  
