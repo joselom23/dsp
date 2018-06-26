@@ -90,8 +90,10 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 To start working in this problem we will first define the conventions:
 
-* P(I) = P(E_1) = Probability of identical twins
-* P(F) = P(E_2) = Probability of fraternal twins
+* `P(I) = P(E~1)`: Probability of identical twins. `1/300`
+* `P(F) = P(E~2)`: Probability of fraternal twins. '1/125`
+* `P(B/I) = P(B/E~1)`: Probability of two male identical twins. `MM FF : 1/2`
+* `P(B/F) = P(B/E~2)`: Probability of two male fraternal twins. `MM MF FM FF : 1/4`
 
 | Event     | P(E)  | P(B/E)     | P(E)P(B/E)        | P(E/B) |
 |-----------|-------|------------|-------------------|--------|
@@ -99,6 +101,7 @@ To start working in this problem we will first define the conventions:
 | Fraternal | 1/125 | (1/2)(1/2) | 1/500             | 6/11   |
 |           |       |            | 1100/((500)(600)) |        |
 
+The probability that Elvias was a identical twin is `P(E~1/B) = 5/11`
 
 ---
 
