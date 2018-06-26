@@ -90,10 +90,10 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 To start working in this problem we will first define the conventions:
 
-* `P(I) = P(E<sub>1</sub>)`: Probability of identical twins. `1/300`
-* `P(F) = P(E<sub>2</sub>)`: Probability of fraternal twins. `1/125`
-* `P(B/I) = P(B/E<sub>1</sub>)`: Probability of two male identical twins. `MM FF : 1/2`
-* `P(B/F) = P(B/E<sub>2</sub>)`: Probability of two male fraternal twins. `MM MF FM FF : 1/4`
+* **P(I) = P(E<sub>1</sub>)**: Probability of identical twins. `1/300`
+* **P(F) = P(E<sub>2</sub>)**: Probability of fraternal twins. `1/125`
+* **P(B/I) = P(B/E<sub>1</sub>)**: Probability of two male identical twins. `MM FF : 1/2`
+* **P(B/F) = P(B/E<sub>2</sub>)**: Probability of two male fraternal twins. `MM MF FM FF : 1/4`
 
 | Event     | P(E)  | P(B/E)     | P(E)P(B/E)        | P(E/B) |
 |-----------|-------|------------|-------------------|--------|
