@@ -98,14 +98,11 @@ To start working in this problem we will first define the conventions:
 |   Event   |  P(E) |   P(B/E)   | P(E)P(B/E) | P(E/B) |
 |:---------:|:-----:|:----------:|:----------:|:------:|
 | Identical | 1/300 |     1/2    |    1/600   |  5/11  |
-| Fraternal | 1/125 | (1/2)(1/2) |    1/500   |  6/11  |
-|           |       |            |            |        |  
-
-**P(E/B):**  
-$$ P(A/B) = \frac{P(A)P(B/A)}{P(B)} $$
+| Fraternal | 1/125 | (1/2)(1/2) |    1/500   |  6/11  |  
 
 The probability that Elvis was a identical twin is **P(E<sub>1</sub>/B) = 5/11.**
-
+**P(E/B):**  
+$$ P(A/B) = \frac{P(A)P(B/A)}{P(B)} $$
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
